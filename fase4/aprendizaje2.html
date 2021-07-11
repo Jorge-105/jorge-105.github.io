@@ -6,69 +6,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>jeb fase 2</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <!-- <link rel="stylesheet" href="css/estilos.css"> -->
+    <link href="css/boostrap/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body>
-    <header>
-        <img src="img/logo unad.png" alt="" imagen de logo" height="100" width=100 ">
-       <h1>Etiquetas basicas de HTML, atributos y valores</h1>
-       <img src=" img/imagen2.jpg" alt="" imagen de logo" height="100" width=200>
-    </header>
-
-    <!-- Barra de     menú horizontal -->
-        <nav>
-            <ul class="menu">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">Temas</a>
-                    <ul class="dropdown">
-                        <li><a href="tema1.html">tema 1</a></li>
-                        <li><a href="tema2.html">tema 2</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Recursos</a>
-                    <ul class="dropdown">
-                        <li><a href="recurso1.html">recurso1</a></li>
-                        <li><a href="recurso2.html">recurso2</a></li>
-                    </ul>
-                </li>
-                <li> <a href="#">Aprendizaje</a>
-                    <ul class="dropdown">
-                        <li><a href="aprendizaje1.html">prueba1</a></li>
-                        <li><a href="aprendizaje2.html">prueba2</a></li>
-                    </ul>
-                </li>
-                <li><a href="autor.html">Autor</a></li>
-            </ul>
-        </nav>
-        <!-- Seccion central -->
-        <div class="contenedor">
-            <aside>
-                <h4>
-                    fan page </h4>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/OGtssY-MJLI"
-                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-                gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            </aside>
-
-            <section>
-                <hr>
-                <h3>Proposito</h3>
-                <p>
-                    El propósito de esta seccion es evaluar
-                    los conocimientos adquiridos sobre los
-                    atributos y valores de HTML a traves de 
-                    resolver un cuestionario (formulario Google)
-                </p>
-              
-            </section>
-
+<body style="background-color: #0459AA;">
+    
+    <div class="container" style="background-color:#F5F9FC;">
+        
+        <div class="row">
+            <div class="col">
+                <img src="img/logo unad.png" alt="imagen de logo" height="100" width=100 class="rounded float-left">
+            </div>
+            <div class="col">
+                <h1 class="h3">Atributos de HTML</h1>
+            </div>
+            <div class="col align-items-end">
+                <img src=" img/imagen2.jpg" alt="imagen de logo" height="100" width=200 class="rounded float-right">
+            </div>
         </div>
-        <footer>pie de pagina
 
-            <p></p>
-        </footer>
+        <!-- Barra de     menú horizontal -->
+        <!-- utilizar bootstrap -->
+        <div>
+        <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Ir a fase 4</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aprendizaje1.html">Ir a cuestionario 1</a>
+            </li>
+          </ul>
+          </div>
+
+            <!-- Seccion central -->
+            <div class="container">
+                <aside>
+                    <p class="h4">Fan page</p>
+                    <div class="row align-items-center">
+                        
+                        <div class="col">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/OGtssY-MJLI"
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                        gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </aside>
+
+                <section>
+                    <hr>
+                    <h3>Proposito</h3>
+                    <p>
+                        El propósito de esta seccion es evaluar
+                        los conocimientos adquiridos sobre el
+                        lenguaje HTML a traves de resolver un
+                        cuestionario (formulario Google)
+                    </p>
+                    <p>
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe-4hqeRd0o01HtUL6nwPVS_NAjoyYXy0ESejwOH0neqOanMQ/viewform?embedded=true"
+                        width="640" height="1848" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+                    </p>
+                
+                </section>
+
+            </div>
+            <footer style="background-color: #012F5A;">
+                <p class="h4 text-center" style="color: #AFD5F9;">Derechos de copia de Jorge Betancourth</p>
+            </footer>
+        </div>
     </body>
 
 </html>
